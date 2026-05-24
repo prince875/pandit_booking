@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pandit Booking App Blueprint</title>
+  <style>
+    body{font-family:Arial;background:#FFF8EF;color:#1F2937;padding:30px}
+    h1,h2{color:#8B0F24}
+    .card{background:white;border:1px solid #F3D6B3;border-radius:16px;padding:20px;margin:18px 0}
+    pre{background:#FFF3E1;padding:16px;border-radius:12px;overflow:auto}
+    .tag{display:inline-block;background:#8B0F24;color:white;padding:6px 12px;border-radius:20px;margin:4px}
+  </style>
+</head>
+<body>
+
+<h1>Pandit Booking App Blueprint</h1>
+
+<div class="card">
+  <h2>Tech Stack</h2>
+  <span class="tag">Expo React Native</span>
+  <span class="tag">TypeScript</span>
+  <span class="tag">Node.js</span>
+  <span class="tag">MySQL</span>
+  <span class="tag">Prisma</span>
+</div>
+
+<div class="card">
+  <h2>App Flow</h2>
+  <pre>
+Splash Screen
+ ↓
+Login Screen
+ ↓
+OTP Verification
+ ↓
+Home Screen
+ ↓
+Puja Categories
+ ↓
+Puja Detail
+ ↓
+Pandit List
+ ↓
+Pandit Profile
+ ↓
+Booking
+ ↓
+Payment
+ ↓
+Tracking
+  </pre>
+</div>
+
+<div class="card">
+  <h2>Folder Structure</h2>
+  <pre>
+src/
+├─ assets/images/
+├─ components/
+│  ├─ AppContainer.tsx
+│  └─ home/
+├─ navigation/
+│  ├─ RootNavigator.tsx
+│  ├─ AuthNavigator.tsx
+│  └─ UserNavigator.tsx
+├─ screens/
+│  ├─ auth/
+│  └─ user/
+├─ theme/
+├─ store/
+└─ utils/
+  </pre>
+</div>
+
+<div class="card">
+  <h2>Navigation Structure</h2>
+  <pre>
+RootNavigator
+├─ AuthNavigator
+│  ├─ Splash
+│  ├─ Login
+│  └─ OTP
+│
+└─ UserNavigator
+   ├─ Home
+   ├─ Search
+   ├─ Bookings
+   ├─ Notifications
+   └─ Profile
+  </pre>
+</div>
+
+<div class="card">
+  <h2>Completed Screens</h2>
+  <span class="tag">Splash</span>
+  <span class="tag">Login</span>
+  <span class="tag">OTP</span>
+  <span class="tag">Home</span>
+  <span class="tag">Bottom Tabs</span>
+</div>
+
+<div class="card">
+  <h2>Next Screens</h2>
+  <pre>
+Puja Categories
+Puja Detail
+Pandit List
+Pandit Profile
+Booking Screen
+Payment Screen
+Booking Status
+Live Tracking
+Notifications
+Profile
+  </pre>
+</div>
+
+<div class="card">
+  <h2>Theme</h2>
+  <pre>
+Primary: #8B0F24
+Primary Dark: #5A0717
+Gold: #F59E0B
+Background: #FFF8EF
+Card: #FFFFFF
+Border: #F3D6B3
+Text: #1F2937
+Muted: #6B7280
+  </pre>
+</div>
+
+<div class="card">
+  <h2>Production Rule</h2>
+  <pre>
+Screen = layout + navigation
+Component = reusable UI
+Theme = colors/styles
+Store = global state
+API = backend connection
+  </pre>
+</div>
+
+</body>
+</html>
