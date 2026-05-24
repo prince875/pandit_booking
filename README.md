@@ -1,2 +1,2 @@
-# pandit_booking
-# pandit_booking
+# Pandit Booking App
+Production level pandit booking app using Expo, React Native, Node.js and MySQL.
